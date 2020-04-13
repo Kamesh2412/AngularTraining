@@ -1,0 +1,85 @@
+<h2>{{companyName | titlecase}}</h2>
+<h3>{{today | date:'medium'}}</h3>
+<h2>{{5 | double}}</h2>
+
+<div *ngFor="let item of customer" >
+Name:{{item | name}}
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <app-header></app-header>
+<h1>Hi!This is Kamesh</h1>
+<h3>Title is : {{title}}</h3>
+<h3>EmpName is : {{empName}}</h3>
+<input type="text" [(ngModel)]="empName" />
+<img [src]="imagePath"/>
+<button (click)="displayName()">Click Here</button><br><br>
+
+<h2>Number is : {{num}}</h2>
+<button (click)="increment()" >increment</button>
+<button (click)="decrement()">Decrement</button>
+
+<app-footer></app-footer> -->
+<!-- <div *ngIf="isDisplay">
+    <h2>Hi
+    </h2>
+</div>
+<div *ngIf="age>=19; else elseblock">
+    <h1>Age is displayed for above 18</h1>
+</div>
+<ng-template #elseblock>
+    Age is not displayed
+</ng-template>
+<ul *ngFor="let cust of customer">
+    <li>
+        {{cust}}
+    </li>
+</ul>
+<table border="3">
+    <tr>
+        <th>Names</th>
+    </tr>
+    <tr *ngFor="let cust of customer">
+        <td>{{cust}}</td>
+    </tr>
+</table>
+
+<table border="3" [ngStyle]="{'color': 'yellow','background-color':'lightpink'}" >
+    <tr>
+        <th>rollNo</th>
+        <th>Names</th>
+        <th>Job</th>
+    </tr>
+
+    <tr *ngFor="let stud of student">
+        <td>{{stud.rollNo}}</td>
+        <td>{{stud.name}}</td>
+        <td>{{stud.job}}</td>
+    </tr>
+
+</table>
+
+<div>
+    <h3 [ngStyle]="{'color': 'yellow','background-color':'lightpink'}">Hello</h3>
+</div>
+
+<div [ngClass]="{present: isPresent,notpresent:!isPresent}">
+    <input type="checkbox" value="Check"  [(ngModel)]="isPresent"/>
+    <h3>NgClassExample</h3></div>
+ -->
+ <!-- <button (click)="toggleDisplay()">{{displayValue}}</button>
+ <div *ngIf="flag">
+     <table border="3">
+         <tr *ngFor="let emp of student">
+             <td>{{emp.name}}</td>
+             <td>{{emp.rollNo}}</td>
+         </tr>
+     </table>
+ </div> -->
